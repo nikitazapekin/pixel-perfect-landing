@@ -1,0 +1,111 @@
+.blog__container {
+    max-width: 682px;
+    margin: 0 auto
+}
+
+.blog__title {
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 55px;
+}
+
+.blog__posts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.blog__post {}
+
+.blog__post__title {
+    color: #21243D;
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.blog__post__info {
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.blog__post__about {
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 29px;
+}
+
+.blog__post__info span {
+    width: 2px;
+    height: 25px;
+    background-color: gray;
+}
+
+.blog__post__line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+
+@media screen and (max-width: 550px) {
+    .blog__post {
+        padding: 0 18px;
+    }
+
+    .blog__post__title {
+        color: #21243D;
+
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .blog__title {
+        color: #21243D;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 10px;
+        padding-left: 18px;
+    }
+
+    .blog__post__info span {
+        height: 10px;
+        transform: translateY(5px);
+    }
+
+    .blog__post__info__type,
+    .blog__post__info__date {
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .blog__post__about {
+        margin-bottom: 20px;
+    }
+}
