@@ -1,0 +1,124 @@
+.worklist__details {
+    padding-top: 60px;
+}
+
+.details__container {
+    max-width: 681px;
+    margin: 0 auto;
+}
+.details__content {
+    position: relative;
+}
+.details__title {
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.details__info {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.details__year {
+    flex: 0 0 62px; 
+  /*  width: 62px; */
+    height: 25px;
+    border-radius: 16px;
+    background-color: #FF7C7C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+}
+.details__type {
+    color:  #21243D;
+    font-family: 'Heebo', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.details__about {
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 41px;
+}
+.details__image{
+  flex: 1 1 681px; 
+    height: 470px;
+    margin-bottom: 54px;
+}
+.details__image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+ 
+}
+.heading__title {
+    color:  #21243D;
+    font-family: 'Heebo', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 60px; /* 200% */
+}
+.heading__subtitle {
+    color:  #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+.heading__about {
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 30px;
+}
+.heading__image{
+    flex: 1 1 681px; 
+      height: 470px;
+      margin-bottom: 54px;
+  }
+  .heading__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+   
+  }
+  .heading__image:nth-child(1) {
+    margin-bottom: 27px;
+  }
+  @media screen and (max-width: 700px) {
+    .worklist__details, .heading {
+        padding: 0 18px;
+    }
+}
+@media screen and (max-width: 375px) { 
+    .details__image, .heading__image {
+        flex: 1 1 339px;
+        height: 256px;
+    }
+}
